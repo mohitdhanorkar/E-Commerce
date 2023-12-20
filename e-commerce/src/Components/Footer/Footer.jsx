@@ -22,7 +22,7 @@ const Footer = () => {
         <li onClick={()=> {setLink("about")}}><Link style={{ textDecoration: 'none'}} to='/about'>About</Link>{link==="about"?<hr/>:<></>}</li>
         <li onClick={()=> {setLink("contact")}}><Link style={{ textDecoration: 'none'}} to='/contact'>Contact</Link>{link==="contact"?<hr/>:<></>}</li>
       </ul> */}
-      
+
       <ul className="footer-links">
         <li>Company</li>
         <li>Product</li>

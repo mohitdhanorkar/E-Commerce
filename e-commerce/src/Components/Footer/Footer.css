@@ -38,5 +38,11 @@
 }
 .footer-copyright p{
     margin-bottom: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.footer-copyright hr{
+    width: 1000px;
 }
 
