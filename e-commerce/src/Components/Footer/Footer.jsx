@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 import footer_logo from "../Assets/logo.png";
 import instagram_icon from '../Assets/instagram_icon.png'
 import pintester_icon from '../Assets/pintester_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const [link, setLink] = useState()
+
   return (
     <div className="footer">
       <div className="footer-logo">
@@ -13,11 +16,11 @@ const Footer = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="footer-links">
-        <li>Company</li>
-        <li>Product</li>
-        <li>Offices</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li onClick={()=> {setLink()}}><Link style={{ textDecoration: 'none'}} to='/company'>Company</Link>{link==="company"?<hr/>:<></>}</li>
+        <li onClick={()=> {setLink()}}><Link style={{ textDecoration: 'none'}} to='/product'>Product</Link>{link==="product"?<hr/>:<></>}</li>
+        <li onClick={()=> {setLink()}}><Link style={{ textDecoration: 'none'}} to='/offices'>Offices</Link>{link==="offices"?<hr/>:<></>}</li>
+        <li onClick={()=> {setLink()}}><Link style={{ textDecoration: 'none'}} to='/about'>About</Link>{link==="about"?<hr/>:<></>}</li>
+        <li onClick={()=> {setLink()}}><Link style={{ textDecoration: 'none'}} to='/contact'>Contact</Link>{link==="contact"?<hr/>:<></>}</li>
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icon-container">
