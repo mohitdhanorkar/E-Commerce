@@ -22,3 +22,17 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
 }
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+    width: 230px;
+    height: 65px;
+    border-radius: 75px;
+    color: #f1e9e9;
+    background: red;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
