@@ -42,6 +42,10 @@
     font-weight: 500;
     cursor: pointer;
 }
+.loginsignup-container button:hover {
+    background: red; /* New background color on hover */
+}
+
 .loginsignup-login{
     margin-top: 20px;
     color: #5c5c5c;
