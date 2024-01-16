@@ -48,7 +48,6 @@ const ProductDisplay = (props) => {
         <button>ADD TO CART</button>
         <p className='productdisplay-right-category'><span>Category :</span>Women, T-Shirt, Crop Top</p>
         <p className='productdisplay-right-category'><span>Tags :</span></p>Morden, Latest
-
       </div>
     </div>
   )
