@@ -54,6 +54,9 @@
 .productdisplay-right-price-new{
     color: #ff4141;
 }
-.productdisplay-right-size{
-    
+.productdisplay-right-size h1{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
 }
