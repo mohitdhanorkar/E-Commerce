@@ -9,15 +9,16 @@
 .productdisplay-img-list{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 5px;
     margin-left: 80px;
 }
 .productdisplay-img-list img{
-    height: 150px;
+    height: 180px;
 }
 .productdisplay-main-img{
     width: 450px;
     height: 550px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.3);
 }
 
 /* // Add css for right side component */
