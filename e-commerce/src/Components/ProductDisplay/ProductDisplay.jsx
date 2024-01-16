@@ -36,6 +36,16 @@ const ProductDisplay = (props) => {
             A lightweight, usually knitted, pullover shirt, close-fitting and white a round neckline and short sleeves,
             worn as an undershirt for outer garment.
         </div>
+        <div className="productdisplay-right-size">
+            <h1>Select Size</h1>
+            <div className="productdisplay-right-size">
+                <div>S</div>
+                <div>M</div>
+                <div>L</div>
+                <div>XL</div>
+                <div>XXL</div>
+            </div>
+        </div>
       </div>
     </div>
   )
