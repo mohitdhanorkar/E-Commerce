@@ -60,3 +60,8 @@
     font-size: 20px;
     font-weight: 600;
 }
+.productdisplay-right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
