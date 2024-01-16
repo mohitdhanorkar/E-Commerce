@@ -32,3 +32,28 @@
     font-weight: 700;
     color: #3d3d3d;
 }
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #171414;
+    font-size: 16px;
+}
+.productdispaly-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.productdisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productdisplay-right-price-new{
+    color: #ff4141;
+}
+.productdisplay-right-size{
+    
+}
