@@ -4,23 +4,19 @@
 }
 .productdisplay-left{
     display: flex;
-    gap: 17px;
+    gap: 10px;
 }
 .productdisplay-img-list{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
+    margin-left: 80px;
 }
 .productdisplay-img-list img{
-    height: 162px;
+    height: 150px;
 }
 .productdisplay-main-img{
-    width: 585px;
-    height: 700px;
+    width: 400px;
+    height: 470px;
 }
 
-/* //Add CSS for right part */
-
-.productdisplay-right{
-    
-}
