@@ -46,6 +46,7 @@ const ProductDisplay = (props) => {
                 <div>XXL</div>
             </div>
         </div>
+        <button>ADD TO CART</button>
       </div>
     </div>
   )
