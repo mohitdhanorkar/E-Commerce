@@ -19,21 +19,28 @@ const CartItems = () => {
       {all_products.map((e)=>{
         if(CartItems[e.id]>0)
         {
-            return    <div>
-            <div key={e.id} className="cartitems-format">
-                <img src={e.image} alt="" className='carticon-product-icon'/>
-                <p>{e.name}</p>
-                <p>${e.new_price}</p>
-                <button className='cartitems-quantity'>{CartItems[e.id]}</button>
-                <p>{e.new_price*CartItems[e.id]}</p>
-                <img src={remove_icon} onClick={()=>{removeFromCart(e.id)}} alt="" />
-            </div>
-            <hr />
-          </div>
+            return (
+                <div key={e.id} className="cartitems-format">
+                    <img src={e.image} alt="" className='carticon-product-icon' />
+                    <p>{e.name}</p>
+                    <p>${e.new_price}</p>
+                    <button className='cartitems-quantity'>{CartItems[e.id]}</button>
+                    <p>{e.new_price * CartItems[e.id]}</p>
+                    <img
+                        src={remove_icon}
+                        onClick={() => {
+                            removeFromCart(e.id);
+                        }}
+                        alt=""
+                    />
+                </div>
+            );
         }
-      })}
-      </div>
-  )
-}
+        return null; // Optional: Add this line to handle the case where the condition is not met
+    })}
+    <hr />
+</div>
+);
+};
 
 export default CartItems;
